@@ -6,7 +6,7 @@ const Button = (props) => {
   return (
     <button
       type={props.type}
-      style={{ background: props.isValid ? "#8b005d" : "#ff474c" }}
+      style={{ background: props.isValid ? "red" : "#ff474c" }}
       className="button"
       onClick={props.onClick}
     >
